@@ -1,0 +1,90 @@
+---
+title: "Synthetic Sales Analysis - R Script Documentation"
+author: "ALI BEHESHTINEJAD"
+date: "September 28, 2026"
+output: html_document
+---
+
+**AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) for documentation structure, Markdown drafting, wording refinement, and formatting suggestions. Prompts used are listed in `Appendix_AI.md`. I verified the written structure and Markdown syntax by review; the required RStudio/Posit Cloud knit/preview and GitHub preview must be completed before submission. All final calculations are done by myself. No real or personal data were uploaded. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+
+This document explains a small R workflow that uses a synthetic sales dataset. Its purpose is to demonstrate clear R Markdown documentation with organized sections, explanatory text, and syntax-highlighted R code chunks.
+
+## Inputs
+
+The example uses synthetic monthly sales information created directly in R. No real or personal information is used.
+
+The input contains two fields:
+
+- `month`: a month label.
+- `revenue`: a synthetic monthly revenue value.
+
+## Dependencies
+
+The example uses the `ggplot2` package for visualization.
+
+```{r setup, message=FALSE}
+library(ggplot2)
+```
+
+## Create the Synthetic Data
+
+```{r create-data}
+sales <- data.frame(
+  month = c("Jan", "Feb", "Mar", "Apr", "May", "Jun"),
+  revenue = c(12000, 13500, 12800, 15100, 16000, 17200)
+)
+```
+
+## Inspect the Data
+
+The following code displays the structure and first rows of the synthetic dataset.
+
+```{r inspect-data}
+str(sales)
+head(sales)
+```
+
+## Summarize the Data
+
+The following code asks R to summarize the synthetic revenue variable.
+
+```{r summarize-data}
+summary(sales$revenue)
+```
+
+## Visualize the Data
+
+```{r revenue-chart}
+ggplot(sales, aes(x = month, y = revenue)) +
+  geom_col() +
+  labs(
+    title = "Synthetic Monthly Revenue",
+    x = "Month",
+    y = "Revenue"
+  )
+```
+
+## Outputs
+
+When this R Markdown file is knitted successfully, it should produce:
+
+- A displayed description of the synthetic dataset.
+- A preview of the dataset.
+- Summary statistics for the `revenue` field.
+- A bar chart of monthly synthetic revenue.
+
+## Validation Checklist
+
+Before submission:
+
+- Knit or preview this `.Rmd` file in RStudio or Posit Cloud.
+- Confirm that all headings render correctly.
+- Confirm that all R code chunks execute without errors.
+- Confirm that the chart appears correctly.
+- Confirm that no real or personal data are included.
+
+## AI Use Note
+
+AI was used to suggest documentation structure, Markdown organization, wording, and example code-block formatting. The final file must be manually previewed and verified as required by the assignment.
