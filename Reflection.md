@@ -3,18 +3,16 @@
 **AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) for
 documentation structure, Markdown drafting, wording refinement, and
 formatting suggestions. Prompts used are listed in `Appendix_AI.md`. I
-verified the written structure and Markdown syntax by review; the
-required RStudio/Posit Cloud knit/preview and GitHub preview must be
-completed before submission. All final calculations are done by myself.
-No real or personal data were uploaded. I am responsible for the
-accuracy and originality of this work.
+verified outputs by reviewing the Markdown structure, previewing the
+README on GitHub, and knitting the R Markdown file in Posit Cloud. All
+final calculations are done by myself. No real or personal data were
+uploaded. I am responsible for the accuracy and originality of this
+work.
 
-> **Note:** The provided five-page Assignment 1 instruction PDF requires
-> answers to three Reflection Questions but does not show the exact
-> three question texts. The responses below are aligned with the
-> assignment objectives and rubric. If the LMS displays different exact
-> questions, the headings should be replaced with those exact questions
-> before submission.
+The Assignment 1 instruction PDF requires responses to three Reflection
+Questions, but the PDF does not provide the exact wording of those three
+questions. The three reflections below address the reflection themes
+stated in the assignment objectives and rubric.
 
 ## Reflection 1 --- How did AI support the documentation process?
 
@@ -22,25 +20,25 @@ AI helped organize the README and R Markdown documentation into a clear
 structure. It was useful for suggesting concise headings, improving
 wording, and checking whether important sections such as Overview,
 Installation, Example Code, Inputs, Outputs, and License were present.
-The main benefit was speed: an initial structure could be produced
-quickly and then reviewed instead of starting from a blank page.
+The main benefit was efficiency: an initial documentation structure
+could be drafted quickly and then reviewed and refined.
 
 ## Reflection 2 --- What are the limitations or risks of AI-assisted documentation?
 
-AI-generated documentation still requires human review. It can include
-unnecessary sections, unclear wording, incorrect assumptions, or code
+AI-generated documentation still requires human review. It can contain
+unnecessary sections, unclear wording, incorrect assumptions, or
 examples that have not been tested in the student's environment. For
-this reason, I treated the AI output as a draft and reviewed the
-organization and syntax. I also avoided uploading real or personal data.
-Final rendering and code execution must be checked in RStudio or Posit
-Cloud and on GitHub before submission.
+this assignment, the AI output was treated as a draft rather than
+accepted automatically. The Markdown structure was reviewed, no real or
+personal data were uploaded, and the R Markdown document was tested by
+knitting it in Posit Cloud.
 
 ## Reflection 3 --- What did you learn from verification and refinement?
 
-The activity showed that good documentation is not only about writing
-correct sentences. Markdown syntax, code blocks, headings, file
-organization, and repository naming all affect usability. Previewing is
-important because a file can look correct as plain text but render
-incorrectly. The refinement process also showed that AI is most useful
-when prompts are specific and when the output is checked against
-documentation standards and a real repository example.
+The activity showed that good documentation involves more than correct
+sentences. Markdown syntax, code blocks, headings, file organization,
+repository naming, and rendered output all affect usability. Previewing
+the README on GitHub and knitting the R Markdown file in Posit Cloud
+showed why validation is important. The refinement process also
+demonstrated that AI is more useful when prompts are specific and its
+output is checked before final use.

@@ -5,13 +5,13 @@ date: "September 28, 2026"
 output: html_document
 ---
 
-**AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) for documentation structure, Markdown drafting, wording refinement, and formatting suggestions. Prompts used are listed in `Appendix_AI.md`. I verified the written structure and Markdown syntax by review; the required RStudio/Posit Cloud knit/preview and GitHub preview must be completed before submission. All final calculations are done by myself. No real or personal data were uploaded. I am responsible for the accuracy and originality of this work.
+**AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) for documentation structure, Markdown drafting, wording refinement, and formatting suggestions. Prompts used are listed in `Appendix_AI.md`. I verified outputs by reviewing the Markdown structure, previewing the README on GitHub, and knitting the R Markdown file in Posit Cloud. All final calculations are done by myself. No real or personal data were uploaded. I am responsible for the accuracy and originality of this work.
 
 # Purpose
 
 This document explains a small R workflow that uses a synthetic sales dataset. Its purpose is to demonstrate clear R Markdown documentation with organized sections, explanatory text, and syntax-highlighted R code chunks.
 
-## Inputs
+# Inputs
 
 The example uses synthetic monthly sales information created directly in R. No real or personal information is used.
 
@@ -20,7 +20,7 @@ The input contains two fields:
 - `month`: a month label.
 - `revenue`: a synthetic monthly revenue value.
 
-## Dependencies
+# Dependencies
 
 The example uses the `ggplot2` package for visualization.
 
@@ -28,7 +28,7 @@ The example uses the `ggplot2` package for visualization.
 library(ggplot2)
 ```
 
-## Create the Synthetic Data
+# Create the Synthetic Data
 
 ```{r create-data}
 sales <- data.frame(
@@ -37,7 +37,7 @@ sales <- data.frame(
 )
 ```
 
-## Inspect the Data
+# Inspect the Data
 
 The following code displays the structure and first rows of the synthetic dataset.
 
@@ -46,7 +46,7 @@ str(sales)
 head(sales)
 ```
 
-## Summarize the Data
+# Summarize the Data
 
 The following code asks R to summarize the synthetic revenue variable.
 
@@ -54,9 +54,9 @@ The following code asks R to summarize the synthetic revenue variable.
 summary(sales$revenue)
 ```
 
-## Visualize the Data
+# Visualize the Data
 
-```{r revenue-chart}
+```{r visualize-data}
 ggplot(sales, aes(x = month, y = revenue)) +
   geom_col() +
   labs(
@@ -66,25 +66,19 @@ ggplot(sales, aes(x = month, y = revenue)) +
   )
 ```
 
-## Outputs
+# Outputs
 
-When this R Markdown file is knitted successfully, it should produce:
+When this R Markdown file is knitted, it produces:
 
 - A displayed description of the synthetic dataset.
 - A preview of the dataset.
 - Summary statistics for the `revenue` field.
 - A bar chart of monthly synthetic revenue.
 
-## Validation Checklist
+# Validation
 
-Before submission:
+This `.Rmd` file was successfully knitted in Posit Cloud. The rendered document was reviewed to confirm that the headings, sections, R code chunks, output, and chart display correctly. Only synthetic data are used.
 
-- Knit or preview this `.Rmd` file in RStudio or Posit Cloud.
-- Confirm that all headings render correctly.
-- Confirm that all R code chunks execute without errors.
-- Confirm that the chart appears correctly.
-- Confirm that no real or personal data are included.
+# AI Use Note
 
-## AI Use Note
-
-AI was used to suggest documentation structure, Markdown organization, wording, and example code-block formatting. The final file must be manually previewed and verified as required by the assignment.
+AI was used for documentation structure, Markdown organization, wording refinement, and code-block formatting suggestions. The prompts and key response summaries are documented in `Appendix_AI.md`.

@@ -3,11 +3,11 @@
 **AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) for
 documentation structure, Markdown drafting, wording refinement, and
 formatting suggestions. Prompts used are listed in `Appendix_AI.md`. I
-verified the written structure and Markdown syntax by review; the
-required RStudio/Posit Cloud knit/preview and GitHub preview must be
-completed before submission. All final calculations are done by myself.
-No real or personal data were uploaded. I am responsible for the
-accuracy and originality of this work.
+verified outputs by reviewing the Markdown structure, previewing the
+README on GitHub, and knitting the R Markdown file in Posit Cloud. All
+final calculations are done by myself. No real or personal data were
+uploaded. I am responsible for the accuracy and originality of this
+work.
 
 ## Overview
 
@@ -41,7 +41,7 @@ markdown-buddy-ali-beheshtinejad/
 
 1.  Install R and RStudio, or open a Posit Cloud project.
 2.  Open the project folder.
-3.  Add the four files shown above.
+3.  Add the four assignment files shown above.
 4.  If needed, install `ggplot2`:
 
 ``` r
@@ -79,19 +79,14 @@ ggplot(sales, aes(x = month, y = revenue)) +
 
 The README uses common GitHub documentation sections such as Overview,
 Installation, Example Code, and License. Markdown headers, lists, fenced
-code blocks, and inline code formatting have been checked for
-consistency.
+code blocks, and inline code formatting were reviewed for consistency.
 
-Before final submission:
-
-1.  Preview `README.md` on GitHub.
-2.  Knit or preview `script_documentation.Rmd` in RStudio or Posit
-    Cloud.
-3.  Confirm that headings, lists, code blocks, and the chart render
-    correctly.
-4.  Compare the README structure with a real R repository, such as a
-    tidyverse repository.
-5.  Make any final corrections identified during preview.
+Verification completed: - `README.md` was previewed on GitHub to confirm
+that headings, lists, and code blocks render correctly. -
+`script_documentation.Rmd` was knitted successfully in Posit Cloud and
+its rendered HTML was reviewed. - The documentation structure was
+checked against common professional R-project README conventions. - Only
+synthetic data are used.
 
 ## License
 
@@ -101,12 +96,14 @@ educational use.
 ## AI Assistance Disclosure
 
 -   **AI tool used:** ChatGPT (GPT-5.6 Sol)
--   **Date used:** September 22--28, 2026
--   **Main prompts:** The assignment seed, refinement, and critique
-    prompts, plus requests to organize and finalize the documentation.
--   **Changes after review:** The draft was simplified, headings were
-    standardized, the repository was limited to the required
-    deliverables, and verification steps were made explicit.
--   **Validation:** Written content and Markdown structure were
-    reviewed. The required RStudio/Posit Cloud knit/preview and GitHub
-    preview must still be completed before submission.
+-   **Dates used:** September 22--28, 2026
+-   **Main prompts:** The assignment seed, refinement, and
+    critique/validation prompts, plus requests to organize and finalize
+    the documentation.
+-   **Changes after review:** Headings were standardized, wording was
+    simplified, code blocks were formatted consistently, the repository
+    was limited to the assignment deliverables, and validation notes
+    were updated after previewing.
+-   **Validation:** The README was previewed on GitHub and the R
+    Markdown document was successfully knitted and reviewed in Posit
+    Cloud. The student remains responsible for the final work.
