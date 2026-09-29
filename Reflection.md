@@ -9,10 +9,7 @@ final calculations are done by myself. No real or personal data were
 uploaded. I am responsible for the accuracy and originality of this
 work.
 
-The Assignment 1 instruction PDF requires responses to three Reflection
-Questions, but the PDF does not provide the exact wording of those three
-questions. The three reflections below address the reflection themes
-stated in the assignment objectives and rubric.
+
 
 ## Reflection 1 --- How did AI support the documentation process?
 
